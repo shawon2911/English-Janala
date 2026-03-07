@@ -40,7 +40,7 @@ const displayLevelWord = (words) => {
     if(words.length == 0){
         wordContainer.innerHTML = `
             <div class="font-bangla text-center  col-span-full rounded-xl py-10 px-7 space-y-6">
-                <img class="mx-auto" src="../assets/alert-error.png">
+                <img class="mx-auto" src="./assets/alert-error.png">
                 <p class="text-[#79716B]">এই Lesson এ এখনো কোন Vocabulary যুক্ত করা হয়নি।</p>
                 <h3 class="font-medium text-[32px] text-[#292524]">নেক্সট Lesson এ যান</h3>
             </div>
